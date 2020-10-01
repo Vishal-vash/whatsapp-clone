@@ -1,0 +1,116 @@
+.login {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background-color: #075e54b5;
+}
+
+.login__body {
+  display: grid;
+  background-color: #fff;
+  place-items: center;
+  width: 25vw;
+  height: auto;
+  border: 1px solid lightgray;
+  min-height: 35vh;
+  padding: 20px;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.login__body h2 {
+  margin-bottom: 20px;
+  color: #075e54f2;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__formControl {
+  width: 20vw;
+  margin-top: 15px;
+}
+
+.MuiSelect-select:focus {
+  background-color: transparent !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before,
+.MuiInput-underline:after {
+  border-color: #075e54b5 !important;
+}
+
+.login__formControl:last-child {
+  margin-bottom: 10px;
+}
+
+.login__formControl:focus {
+  background-color: #fff;
+  outline-width: 0;
+}
+
+.login__formControl__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__formControl__group .login__formControl {
+  width: 14vw;
+  margin-bottom: 0;
+}
+
+.login__formControl__group .login__formControl.small {
+  width: 5vw;
+}
+
+.login__form__buttonGroup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.login__form__buttonGroup .login__form__button {
+  margin-right: 15px;
+  background-color: #075e54f2;
+  padding: 5px 7px;
+}
+
+.login__form__buttonGroup .login__form__button:hover,
+.login__form__buttonGroup .login__form__button:focus {
+  background-color: #075e54b5;
+}
+
+.login__form__buttonGroup .login__form__button__link,
+.login__form__buttonGroup .login__form__button__link:hover,
+.login__form__buttonGroup .login__form__button__link:focus {
+  border: none;
+  background: none;
+  color: #075e54f2;
+  padding: 5px 4px;
+  height: 30px;
+  box-shadow: none;
+  font-weight: bold;
+  text-transform: inherit;
+  font-size: inherit;
+}
+
+.login__form__buttonGroup .login__form__button__link:hover,
+.login__form__buttonGroup .login__form__button__link:focus {
+  color: #075e54b5;
+}
+
+.label__formControl__option {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+.login__formcontrol__image__icon {
+  margin-right: 20px;
+}
+
+.MuiList-root.MuiMenu-list {
+  padding-right: 0 !important;
+  width: auto !important;
+}
